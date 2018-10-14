@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./CSS/JJJWebsite.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .row.content {height: 650px}
+    
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    .well img {
+      width: 290px;
+
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      bottom: 0;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Bootstrap Webpage</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="mailto:sample.email@gmail.com?Subject=Work%Info" target="_top">Email Us</a></p>
+      <p><a href="#">Get A Quote</a></p>
+      <p><a href="#">Our Partners</a></p>
+    </div>
+
+
+    <div class="col-sm-6 text-left"> 
+      <h1>Welcome</h1>
+      <p>.</p>
+      <hr>
+      <h3>Test</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id purus vel purus vulputate sagittis quis id felis. Nulla facilisi. Donec condimentum libero non porttitor luctus. Phasellus porttitor ornare urna, et pellentesque arcu tristique ut.</p>
+      <p>Vivamus velit lacus, aliquet sed ante a, viverra pellentesque massa. Vestibulum id molestie velit. In bibendum et purus eget porta. Integer ornare tortor eu libero tempor finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+      <p>Suspendisse at nisi sit amet ligula bibendum vehicula eget ut neque. Nulla vulputate tristique tincidunt. Maecenas a eleifend lorem. Nulla eu finibus quam. Donec et enim ut ante sollicitudin molestie a eu neque.</p>
+    </div>
+
+
+    <div class="col-sm-4 sidenav">
+      <div class="well">
+        <img src="./Img/WebDev.jpg">
+      </div>
+      <div class="well">
+        <img src="./Img/WebDev2.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+    <footer class="container-fluid text-center">
+      <p>Bootstrap Webpage Copyright &copy;;</p>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.dark {
+    width: 80%;
+    padding: 15px;
+    background: #0e0d0d;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
